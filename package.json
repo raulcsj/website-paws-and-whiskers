@@ -1,0 +1,36 @@
+{
+  "name": "paws-and-whiskers",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "check": "node scripts/check.mjs",
+    "preview": "next build && npm run check && npx serve out",
+    "lint": "next lint",
+    "deploy:vercel": "node scripts/deploy-vercel.mjs",
+    "deploy:cloudflare": "node scripts/deploy-cloudflare.mjs",
+    "push:github": "node scripts/push-to-github.mjs",
+    "content:generate": "node scripts/generate-content.mjs",
+    "images:fetch": "node scripts/fetch-images.mjs"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "gray-matter": "^4.0.3",
+    "next-mdx-remote": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^19.0.0",
+    "@tailwindcss/typography": "^0.5.13",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.0",
+    "wrangler": "^4.86.0",
+    "dotenv": "^16.4.5",
+    "serve": "^14.2.0"
+  }
+}

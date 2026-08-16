@@ -1,0 +1,43 @@
+{
+  "locale": "en",
+  "topics": [
+    {
+      "slug": "rescue-dog-first-30-days",
+      "title": "The First 30 Days With a Rescue Dog: A Week-by-Week Reality Check",
+      "brief": "What actually matters in the first month after adoption: the 3-3-3 rule, calm routines, stress signals, and the 30-day checkpoint.",
+      "images": [
+        { "query": "happy mixed breed dog sitting on couch at home", "alt": "A happy mixed-breed dog sitting on a couch at home", "filename": "cover.jpg" },
+        { "query": "dog lying on soft blanket relaxing at home", "alt": "A relaxed dog lying on a soft blanket at home", "filename": "2.jpg" },
+        { "query": "dog crate with soft bed in living room", "alt": "A wire dog crate with a soft bed in a living room", "filename": "3.jpg" },
+        { "query": "person walking dog on leash in quiet park", "alt": "A person walking a dog on a leash in a quiet park", "filename": "4.jpg" },
+        { "query": "veterinarian examining dog at clinic", "alt": "A veterinarian gently examining a dog at a clinic", "filename": "5.jpg" }
+      ]
+    },
+    {
+      "slug": "cat-cozy-spots-that-work",
+      "title": "Why Your Cat Ignores the Expensive Bed (and the $2 Spots She'll Actually Love)",
+      "brief": "Cats pick sleeping spots by safety, height and warmth, not price. Turn $2 boxes and sunny ledges into cozy corners your cat will actually use.",
+      "images": [
+        { "query": "ginger cat sleeping in cardboard box", "alt": "A ginger cat sleeping curled up in a cardboard box", "filename": "cover.jpg" },
+        { "query": "cat sitting inside brown paper bag", "alt": "A cat sitting inside a brown paper bag", "filename": "2.jpg" },
+        { "query": "cat on cat tree looking out window", "alt": "A cat sitting on a cat tree looking out a window", "filename": "3.jpg" },
+        { "query": "cat curled up sleeping on soft blanket", "alt": "A cat curled up sleeping on a soft blanket", "filename": "4.jpg" },
+        { "query": "kitten peeking out of cardboard box", "alt": "A kitten peeking out of a cardboard box", "filename": "5.jpg" },
+        { "query": "cat stretching on sunny windowsill", "alt": "A cat stretching on a sunny windowsill", "filename": "6.jpg" }
+      ]
+    },
+    {
+      "slug": "puppy-schedule-working-owners",
+      "title": "A Puppy Schedule That Survives a 9-to-5 (Without the Guilt)",
+      "brief": "Crate naps, potty-break timing, enrichment toys, and an evening reset: a realistic full-day plan for puppy owners who work away from home.",
+      "images": [
+        { "query": "golden retriever puppy playing with ball on grass", "alt": "A golden retriever puppy playing with a ball on grass", "filename": "cover.jpg" },
+        { "query": "puppy sleeping in dog crate", "alt": "A puppy sleeping in a dog crate", "filename": "2.jpg" },
+        { "query": "puppy chewing rubber chew toy", "alt": "A puppy chewing on a rubber chew toy", "filename": "3.jpg" },
+        { "query": "person playing with puppy in backyard", "alt": "A person playing with a puppy in a backyard", "filename": "4.jpg" },
+        { "query": "dog walker walking puppy in park", "alt": "A dog walker walking a puppy in a park", "filename": "5.jpg" }
+      ]
+    }
+  ],
+  "_schema_note": "每个 topic 可选 images: [{ query, alt, filename }]，配合 scripts/fetch-images.mjs 使用"
+}
