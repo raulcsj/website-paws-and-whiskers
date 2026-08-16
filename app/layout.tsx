@@ -3,12 +3,14 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { SITE_TITLE, SITE_DESC, SITE_URL } from "@/lib/site";
+import CategoryNav from "@/components/CategoryNav";
 
 const LOCALE: string = "en";
 const OG_LOCALE = LOCALE === "zh" ? "zh_CN" : "en_US";
 const LAYOUT_HEADER: string = "tagline"; // simple | tagline
 const CONTAINER_CLASS = "max-w-3xl"; // max-w-2xl | max-w-3xl | max-w-5xl
-const GOOGLE_FONTS_URL = "https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap"; // 参考站点字体链接，空串则不加载
+const GOOGLE_FONTS_URL =
+  "https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap";
 const NAV = OG_LOCALE === "zh_CN"
   ? [
       { href: "/about", label: "关于" },
@@ -47,7 +49,7 @@ const websiteJsonLd = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" data-style="playful">
+    <html lang="en" data-style="cute">
       <body className="min-h-screen flex flex-col">
         <header className="sticky top-0 z-40 border-b border-line bg-surface shadow-sm">
           <div className={`${CONTAINER_CLASS} mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4`}>
@@ -68,6 +70,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               ))}
             </nav>
           </div>
+          <CategoryNav />
         </header>
         <main className={`flex-1 w-full ${CONTAINER_CLASS} mx-auto px-4 sm:px-6 py-10 sm:py-14`}>{children}</main>
         <footer className="border-t border-line bg-surface-alt">
