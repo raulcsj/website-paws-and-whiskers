@@ -37,6 +37,18 @@
         { "query": "person playing with puppy in backyard", "alt": "A person playing with a puppy in a backyard", "filename": "4.jpg" },
         { "query": "dog walker walking puppy in park", "alt": "A dog walker walking a puppy in a park", "filename": "5.jpg" }
       ]
+    },
+    {
+      "slug": "cat-carrier-vet-visits-calm",
+      "title": "The Cat Carrier Isn't the Enemy: A Week-Long Plan for Calmer Vet Visits",
+      "brief": "A seven-day desensitization plan for the cat carrier, plus vet-day logistics and how to reset the association after a bad trip.",
+      "images": [
+        { "query": "cat sitting in an open pet carrier at home", "alt": "A cat sitting calmly inside an open pet carrier at home", "filename": "cover.jpg" },
+        { "query": "cat in pet crate", "alt": "A cat sleeping peacefully inside a rustic wooden crate", "filename": "2.jpg" },
+        { "query": "veterinarian examining a cat on exam table", "alt": "A veterinarian examining a cat on an exam table", "filename": "3.jpg" },
+        { "query": "cat peeking out of wicker pet carrier basket", "alt": "A cat peeking out of a wicker pet carrier", "filename": "4.jpg" },
+        { "query": "cat taking treat from hand at home", "alt": "A cat taking a treat from a person's hand at home", "filename": "5.jpg" }
+      ]
     }
   ],
   "_schema_note": "每个 topic 可选 images: [{ query, alt, filename }]，配合 scripts/fetch-images.mjs 使用"
